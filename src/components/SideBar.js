@@ -1,9 +1,13 @@
 import React from "react";
+import SideBarButton from "./SideBarButton";
 
 const SideBar = () => {
   return (
-    <div className="sidebar">
-      <p>ABOUT</p>
+    <div id="sidebar">
+      <div className="top">
+        <p>ABOUT</p>
+        <SideBarButton />
+      </div>
     </div>
   );
 };

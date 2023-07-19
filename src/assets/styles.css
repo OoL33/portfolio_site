@@ -1,11 +1,28 @@
-.sidebar {
-    margin-right: 0px;
-    margin-bottom: 10px;
+#sidebar {
+    margin-top: 200px;
+    position: fixed;
+    width: 160px;
+    float: left;
+    color: #a77dc2;
+    text-align: center;
+}
+
+#sidebar .top {
+    border: 1px solid #FE3B80;
+    margin-top: 3px;
+    border-radius: 7px;
+    background: #ffb1cc;
+    padding: 7px;
+    box-shadow: 0 0 11px rgba(255, 161, 238, 1);
+}
+
+#sidebarbutton {
     color: #FFFFFF;
     border: 1px solid #a77dc2;
     background-color: #a77dc2;
     box-shadow: 0 0 11px rgba(255, 161, 238, 1);
     text-align: center;
-    margin-top: 2px;
     border-radius: 5px;
+    margin-bottom: 5px;
+    padding: 0;
 }
