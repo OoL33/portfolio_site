@@ -5,7 +5,7 @@ const SideBar = () => {
   return (
     <div id="sidebar">
       <div className="top">
-        <p>ABOUT</p>
+        <p className="about">ABOUT</p>
         <SideBarButton />
       </div>
     </div>

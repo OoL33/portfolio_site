@@ -1,3 +1,18 @@
+body {
+    background-image: url('https://images.alphacoders.com/557/557241.jpg');
+    background-repeat: no-repeat;
+    background-size: auto;
+    margin: 0;
+    margin-left: 200px;
+    padding: 0;
+    display: block;
+}
+
+#wrapper {
+    width: 720px;
+    margin: 0 auto;
+}
+
 #sidebar {
     margin-top: 200px;
     position: fixed;
@@ -16,13 +31,53 @@
     box-shadow: 0 0 11px rgba(255, 161, 238, 1);
 }
 
+#sidebar .top .about {
+    z-index: 999999999999;
+    font-size: 20px;
+    position: relative;
+    line-height: 14px;
+}
+
 #sidebarbutton {
     color: #FFFFFF;
     border: 1px solid #a77dc2;
     background-color: #a77dc2;
     box-shadow: 0 0 11px rgba(255, 161, 238, 1);
     text-align: center;
+    box-sizing: border-box;
     border-radius: 5px;
     margin-bottom: 5px;
-    padding: 0;
+}
+
+#content { 
+    width: 420px;
+    float: right;
+}
+
+.post {
+    border-radius: 7px;
+    border: 1px solid #FE3B80;
+    background: #ffb1cc;
+    margin-top: 50px;
+    font-family: bitxmap;
+    color: #a77dc2;
+    padding: 8px;
+    position: relative;
+    box-shadow: 0 0 11px rgba(255, 161, 238, 1);
+}
+
+#header {
+    margin-right: 0px;
+    margin-bottom: 10px;
+    color: #FFFFFF;
+    border: 1px solid #a77dc2;
+    background-color: #a77dc2;
+    box-shadow: 0 0 11px rgba(255, 161, 238, 1);
+    text-align: center;
+    margin-top: 2px;
+    border-radius: 5px;
+}
+
+.description {
+    text-align: center;
 }
