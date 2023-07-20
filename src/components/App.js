@@ -1,11 +1,12 @@
 import React from "react";
 import SideBar from "./SideBar";
+import Post from "./Post";
 
 const App = () => {
   return (
-    <div>
-      Hello from React
+    <div id="wrapper">
       <SideBar />
+      <Post />
     </div>
   );
 };
