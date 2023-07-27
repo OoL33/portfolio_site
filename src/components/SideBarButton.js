@@ -1,9 +1,11 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 const SideBarButton = () => {
   return (
     <div id="sidebarbutton">
-      <p>navigation</p>
+      <FontAwesomeIcon icon={faGithub} />
     </div>
   );
 };
