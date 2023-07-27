@@ -1,13 +1,17 @@
 import React from "react";
+import { BrowserRouter, Route } from "react-router-dom";
 import SideBar from "./SideBar";
 import Post from "./Post";
+import SideBarButton from "./GitHubButton";
 
 const App = () => {
   return (
-    <div id="wrapper">
-      <SideBar />
-      <Post />
-    </div>
+    <BrowserRouter>
+      <div id="wrapper">
+        <SideBar />
+        <Post />
+      </div>
+    </BrowserRouter>
   );
 };
 

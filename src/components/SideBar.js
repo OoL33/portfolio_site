@@ -1,12 +1,14 @@
 import React from "react";
-import SideBarButton from "./SideBarButton";
+import GitHubButton from "./GitHubButton";
+import LinkedInButton from "./LinkedInButton";
 
 const SideBar = () => {
   return (
     <div id="sidebar">
       <div className="top">
         <p className="about">ABOUT</p>
-        <SideBarButton />
+        <GitHubButton />
+        <LinkedInButton />
       </div>
     </div>
   );
