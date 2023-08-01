@@ -51,7 +51,7 @@ body {
     margin: 10px 5px;
 }
 
-#content { 
+#content {
     width: 420px;
     float: right;
 }
@@ -82,4 +82,13 @@ body {
 
 .description {
     text-align: center;
+    color: #9100ff;
+    font-size: 20px;
+    line-height: 15px;
+}
+
+#wrapper #content .post .image {
+    margin-top: -10px;
+    color: #a77dc2;
+    padding: 10px;
 }
