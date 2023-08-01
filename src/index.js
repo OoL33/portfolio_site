@@ -1,6 +1,8 @@
 import React from "react";
 import { createRoot } from "react-dom/client";
 import "./assets/styles.css";
+import '@fontsource-variable/saira';
+import '@fontsource-variable/inconsolata'
 import App from "./components/App";
 import reportWebVitals from "./reportWebVitals";
 
