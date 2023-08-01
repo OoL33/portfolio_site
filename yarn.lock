@@ -257,6 +257,16 @@
   resolved "https://registry.yarnpkg.com/@discoveryjs/json-ext/-/json-ext-0.5.7.tgz#1d572bfbbe14b7704e0ba0f39b74815b84870d70"
   integrity sha512-dBVuXR082gk3jsFp7Rd/JI4kytwGHecnCoTtXFb7DB6CNHp4rg5k1bhg0nWdLGLnOV71lmDzGQaLMy8iPLY0pw==
 
+"@fontsource-variable/inconsolata@^5.0.5":
+  version "5.0.5"
+  resolved "https://registry.yarnpkg.com/@fontsource-variable/inconsolata/-/inconsolata-5.0.5.tgz#393e8cbcda2cac74494427a1556368be37ab4cb4"
+  integrity sha512-93VG25ZUzi6IEHa13SladhlZa4CfY5f6sxG8SBOKqKBu16J7COqrca0elIebbPoA7LQa1dSjkbLLxI9QmcFRxA==
+
+"@fontsource-variable/saira@^5.0.6":
+  version "5.0.6"
+  resolved "https://registry.yarnpkg.com/@fontsource-variable/saira/-/saira-5.0.6.tgz#748ae3ac523858a0942280dcce7412284bf8bf29"
+  integrity sha512-/oqneUw0CPowlysw5IIwKKsCJYFDHR51kABtWh/jRgcG+GC/zqxIGoQI8iQ3CI8MT/BNpzMD5I0JHVIlMnv5OQ==
+
 "@fortawesome/fontawesome-common-types@6.4.0":
   version "6.4.0"
   resolved "https://registry.yarnpkg.com/@fortawesome/fontawesome-common-types/-/fontawesome-common-types-6.4.0.tgz#88da2b70d6ca18aaa6ed3687832e11f39e80624b"
