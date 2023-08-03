@@ -1,0 +1,53 @@
+body {
+    background-image: url('https://images.alphacoders.com/557/557241.jpg');
+    background-repeat: no-repeat;
+    background-size: auto;
+    margin: 0;
+    padding: 0;
+    display: flex; /* Use flexbox for the body */
+    justify-content: center;
+    flex-wrap: wrap; 
+}
+
+#wrapper {
+    width: 720px;
+    flex: 1; /* Allow the wrapper to grow and take remaining space */
+}
+
+#sidebar {
+    margin-top: 200px;
+    position: fixed;
+    width: 160px;
+    color: #a77dc2;
+}
+
+#sidebar .top {
+    border: 1px solid #FE3B80;
+    margin-top: 3px;
+    border-radius: 7px;
+    background: #ffb1cc;
+    padding: 7px 7px 0px 7px;
+    box-shadow: 0 0 11px rgba(255, 161, 238, 1);
+}
+
+#wrapper #sidebar .about {
+    display: block;
+    /* z-index: 999999999999; */
+    font-family: 'Inconsolata Variable', sans-serif;
+    position: relative;
+    text-align: center;
+    margin: 5px;
+}
+
+#sidebarbutton {
+    color: #FFFFFF;
+    border: 5px solid #a77dc2;
+    width: 20%;
+    background-color: #a77dc2;
+    box-shadow: 0 0 11px rgba(255, 161, 238, 1);
+    display: inline-block;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin: 10px 5px;
+}
