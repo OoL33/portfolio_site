@@ -3,7 +3,8 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    padding-left: 180px; /* Adjust the padding to make room for the fixed sidebar */
+    align-items: flex-start; /* Align flex items to the top of the container */
+    padding-left: 100px; /* Adjust the padding to make room for the fixed sidebar */
 }
 
 #header {
@@ -36,23 +37,6 @@
     margin-bottom: 10px;
 }
 
-.post {
-    display: flex; /* Display the post container as flex */
-    flex-direction: column; /* Stack the header, image, and description vertically */
-    justify-content: space-between; /* Add space between header and description and footer */
-    flex: 1 0 calc(33.33% - 10px); /* Allow the posts to occupy one-third of the available space with some spacing in between */
-    max-width: calc(33.33% - 10px); /* Set a maximum width to prevent the posts from becoming too wide */
-    margin-right: 10px; /* Add some spacing between the posts */
-    margin-bottom: 10px;
-}
-/* #wrapper #content .post .copy {
-    margin-top: -10px;
-    color: #a77dc2;
-    padding: 10px;
-    font-size: 10px;
-    line-height: 15px;
-} */
-
 .post .image {
     display: flex;
     flex-direction: column;
@@ -79,10 +63,5 @@
     font-family: 'Inconsolata Variable', sans-serif;
     color: #FFFFFF;
     padding: 1px 3px;
-    /* margin-top: 3px; */
+    margin-top: 3px;
 }
-
-/* Add margin-bottom to the .post element to create spacing between posts */
-/* .post {
-    margin-bottom: 20px; /* Add some spacing between posts */
-/* } */

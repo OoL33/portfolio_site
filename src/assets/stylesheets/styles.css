@@ -4,14 +4,27 @@ body {
     background-size: auto;
     margin: 0;
     padding: 0;
-    display: flex; /* Use flexbox for the body */
-    justify-content: center;
-    flex-wrap: wrap; 
+}
+
+#root {
+    display: flex;
+    min-height: 100vh; /* Ensure the container takes up the full viewport height */
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between; /* Align items with space between them */
+}
+
+.flex-item {
+    flex: 1; /* Allow each item to grow and occupy equal space */
+    padding: 10px;
+    border: 1px solid #ccc;
 }
 
 #sidebar {
     margin-top: 200px;
-    position: fixed;
+    margin-left: 40px;
     width: 160px;
     color: #a77dc2;
 }
@@ -26,7 +39,6 @@ body {
 }
 
 #sidebar .about {
-    display: block;
     font-family: 'Inconsolata Variable', sans-serif;
     position: relative;
     text-align: center;

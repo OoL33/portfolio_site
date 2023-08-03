@@ -24,9 +24,7 @@ const BubbleTeaDevoteas = () => {
           admin roles can create shops.
         </p>
       </div>
-      <div>
-        <FooterForPost />
-      </div>
+      <FooterForPost />
     </div>
   );
 };
