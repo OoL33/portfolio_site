@@ -1,0 +1,67 @@
+/* ProjectContainer.css */
+#content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: flex-start; /* Align flex items to the top of the container */
+    padding-left: 100px; /* Adjust the padding to make room for the fixed sidebar */
+}
+
+#header {
+    font-family: 'Saira Variable', sans-serif;
+    font-size: 12px;
+    color: #FFFFFF;
+    border: 1px solid #a77dc2;
+    background-color: #a77dc2;
+    box-shadow: 0 0 11px rgba(255, 161, 238, 1);
+    text-align: center;
+    margin-top: 2px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#content .post {
+    border-radius: 7px;
+    border: 1px solid #FE3B80;
+    background: #ffb1cc;
+    margin-top: 50px;
+    color: #a77dc2;
+    padding: 8px;
+    position: relative;
+    box-shadow: 0 0 11px rgba(255, 161, 238, 1);
+    flex-direction: column; /* Stack the header, image, and description vertically */
+    justify-content: space-between; /* Add space between header and description and footer */
+    max-width: 300px;
+    flex: 1 0 calc(33.33% - 10px); /* Allow the posts to occupy one-third of the available space with some spacing in between */
+    margin-right: 10px; /* Add some spacing between the posts */
+    margin-bottom: 10px;
+}
+
+.post .image {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    padding: 5px;
+    max-width: 100%;
+}
+
+#content .post .description {
+    text-align: left;
+    font-family: 'Inconsolata Variable', sans-serif;
+    color: #9100ff;
+    font-size: 14px;
+    line-height: 16px;
+    margin: 10px;
+    padding-left: 9px;
+    border-left: solid 2px #acacac;
+}
+
+#content .footer_for_post {
+    border-radius: 4px;
+    background-color: #A77DC2;
+    font-size: 10px;
+    font-family: 'Inconsolata Variable', sans-serif;
+    color: #FFFFFF;
+    padding: 1px 3px;
+    margin-top: 3px;
+}

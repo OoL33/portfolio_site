@@ -1,0 +1,59 @@
+body {
+    background-image: url('https://images.alphacoders.com/557/557241.jpg');
+    background-repeat: no-repeat;
+    background-size: auto;
+    margin: 0;
+    padding: 0;
+}
+
+#root {
+    display: flex;
+    min-height: 100vh; /* Ensure the container takes up the full viewport height */
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between; /* Align items with space between them */
+}
+
+.flex-item {
+    flex: 1; /* Allow each item to grow and occupy equal space */
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+#sidebar {
+    margin-top: 200px;
+    margin-left: 40px;
+    width: 160px;
+    color: #a77dc2;
+}
+
+#sidebar .top {
+    border: 1px solid #FE3B80;
+    margin-top: 3px;
+    border-radius: 7px;
+    background: #ffb1cc;
+    padding: 7px 7px 0px 7px;
+    box-shadow: 0 0 11px rgba(255, 161, 238, 1);
+}
+
+#sidebar .about {
+    font-family: 'Inconsolata Variable', sans-serif;
+    position: relative;
+    text-align: center;
+    margin: 5px;
+}
+
+#sidebarbutton {
+    color: #FFFFFF;
+    border: 5px solid #a77dc2;
+    width: 20%;
+    background-color: #a77dc2;
+    box-shadow: 0 0 11px rgba(255, 161, 238, 1);
+    display: inline-block;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin: 10px 5px;
+}

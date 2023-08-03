@@ -1,16 +1,14 @@
 import React from "react";
-import { BrowserRouter, Route } from "react-router-dom";
+import PortfolioContainer from "./PortfolioContainer";
 import SideBar from "./SideBar";
 import ProjectContainer from "./ProjectContainer";
 
 const App = () => {
   return (
-    <BrowserRouter>
-      <div id="wrapper">
-        <SideBar />
-        <ProjectContainer />
-      </div>
-    </BrowserRouter>
+    <PortfolioContainer>
+      <SideBar />
+      <ProjectContainer />
+    </PortfolioContainer>
   );
 };
 
