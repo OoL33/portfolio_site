@@ -9,11 +9,6 @@ body {
     flex-wrap: wrap; 
 }
 
-#wrapper {
-    width: 720px;
-    flex: 1; /* Allow the wrapper to grow and take remaining space */
-}
-
 #sidebar {
     margin-top: 200px;
     position: fixed;
@@ -30,9 +25,8 @@ body {
     box-shadow: 0 0 11px rgba(255, 161, 238, 1);
 }
 
-#wrapper #sidebar .about {
+#sidebar .about {
     display: block;
-    /* z-index: 999999999999; */
     font-family: 'Inconsolata Variable', sans-serif;
     position: relative;
     text-align: center;

@@ -6,10 +6,8 @@ import ProjectContainer from "./ProjectContainer";
 const App = () => {
   return (
     <BrowserRouter>
-      <div id="wrapper">
-        <SideBar />
-        <ProjectContainer />
-      </div>
+      <SideBar />
+      <ProjectContainer />
     </BrowserRouter>
   );
 };

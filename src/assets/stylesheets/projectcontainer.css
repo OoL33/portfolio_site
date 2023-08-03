@@ -1,12 +1,12 @@
 /* ProjectContainer.css */
-#wrapper #content {
+#content {
     display: flex;
-    /* flex-wrap: wrap; */
-    /* flex-direction: row; */
+    flex-wrap: wrap;
+    flex-direction: row;
     padding-left: 180px; /* Adjust the padding to make room for the fixed sidebar */
 }
 
-#wrapper #header {
+#header {
     font-family: 'Saira Variable', sans-serif;
     font-size: 12px;
     color: #FFFFFF;
@@ -19,7 +19,7 @@
     border-radius: 5px;
 }
 
-#wrapper #content .post {
+#content .post {
     border-radius: 7px;
     border: 1px solid #FE3B80;
     background: #ffb1cc;
@@ -30,9 +30,8 @@
     box-shadow: 0 0 11px rgba(255, 161, 238, 1);
     flex-direction: column; /* Stack the header, image, and description vertically */
     justify-content: space-between; /* Add space between header and description and footer */
-    /* max-width: 300px; */
+    max-width: 300px;
     flex: 1 0 calc(33.33% - 10px); /* Allow the posts to occupy one-third of the available space with some spacing in between */
-    max-width: calc(33.33% - 10px); /* Set a maximum width to prevent the posts from becoming too wide */
     margin-right: 10px; /* Add some spacing between the posts */
     margin-bottom: 10px;
 }
@@ -54,7 +53,7 @@
     line-height: 15px;
 } */
 
-#wrapper .post .image {
+.post .image {
     display: flex;
     flex-direction: column;
     margin-bottom: 10px;
@@ -62,7 +61,7 @@
     max-width: 100%;
 }
 
-#wrapper #content .post .description {
+#content .post .description {
     text-align: left;
     font-family: 'Inconsolata Variable', sans-serif;
     color: #9100ff;
@@ -73,7 +72,7 @@
     border-left: solid 2px #acacac;
 }
 
-#wrapper #content .footer_for_post {
+#content .footer_for_post {
     border-radius: 4px;
     background-color: #A77DC2;
     font-size: 10px;
@@ -84,6 +83,6 @@
 }
 
 /* Add margin-bottom to the .post element to create spacing between posts */
-.post {
+/* .post {
     margin-bottom: 20px; /* Add some spacing between posts */
-}
+/* } */
