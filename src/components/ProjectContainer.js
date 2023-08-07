@@ -1,7 +1,7 @@
 import React from "react";
+import "/src/assets/stylesheets/projectcontainer.css";
 import BubbleTeaDevoteas from "./BubbleTeaDevoteas";
 import MTGDecks from "./MTGDecks";
-import "/src/assets/stylesheets/projectcontainer.css";
 
 const ProjectContainer = () => {
   return (
