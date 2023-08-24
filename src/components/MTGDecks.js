@@ -1,7 +1,7 @@
 import React from "react";
 import mtg_deck_frontpage from "/public/images/mtg_decks/mtg_deck_frontpage.png";
 import mtg_deck_deckpage from "/public/images/mtg_decks/mtg_deck_deckpage.png";
-import FooterForPost from "./FooterForPost";
+import FooterForMagicDecks from "./FooterForMagicDecks";
 
 const MTGDecks = () => {
   return (
@@ -21,7 +21,7 @@ const MTGDecks = () => {
         </p>
       </div>
       <div>
-        <FooterForPost />
+        <FooterForMagicDecks />
       </div>
     </div>
   );

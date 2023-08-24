@@ -1,7 +1,7 @@
 import React from "react";
 import bubble_tea_front_page from "/public/images/bubble_tea_devoteas/bubble_tea_front_page.png";
 import bubble_tea_review_page from "/public/images/bubble_tea_devoteas/bubble_tea_review_page.png";
-import FooterForPost from "./FooterForPost";
+import FooterForBubbleTea from "./FooterForBubbleTea";
 
 const BubbleTeaDevoteas = () => {
   return (
@@ -19,12 +19,12 @@ const BubbleTeaDevoteas = () => {
           />
         </div>
         <p className="description">
-          An application that allows users to se bubble tea shops and their
+          An application that allows users to see bubble tea shops and their
           reviews around Boston, MA. Signed in users can create reviews, and
           admin roles can create shops.
         </p>
       </div>
-      <FooterForPost />
+      <FooterForBubbleTea />
     </div>
   );
 };
